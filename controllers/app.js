@@ -9,13 +9,14 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:myquery', function (req, res) {
+  console.log('here');
   db.many("SELECT url FROM links WHERE title = '" + req.params.myquery + "'")
     .then(function (data) {
       var urls = [];
       for(var i = 0; i < data.length; i++) {
         urls.push(data[i].url);
       }
-      res.send(urls);
+      res.send(urls.join("</br>"));
     })
     .catch(function (error) {
       console.log('ERROR:', error);
