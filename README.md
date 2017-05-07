@@ -34,7 +34,7 @@ I want to be able to see all the webpages with titles, keywords and descriptions
 
 ## How to Run
 
-- Follow the instructions on [Eureka Crawler](https://github.com/ledleds/beetle-crawler) to run a crawl
+- Follow the instructions on [Eureka Crawler](https://github.com/ledleds/Eureka-crawler) to run a crawl
 - `git clone` this project directory
 - `npm install` to install dependencies from within the project root
 - `npm test` to run Mocha and Chai tests
