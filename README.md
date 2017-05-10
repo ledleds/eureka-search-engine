@@ -41,6 +41,14 @@ I want to be able to see all the webpages with titles, keywords and descriptions
 - Run `nodemon` to run Eureka Search Engine locally
 - Visit `localhost:3000` on your favourite browser and search the websites from your crawl with Eureka Crawler!
 
+## Screenshots
+
+![Alt text](/Screenshots/search_engine.jpg?raw=true "Eureka Home Page")
+
+---
+
+![Alt text](/Screenshots/search-results.jpg?raw=true "Search Results")
+
 ## Challenges
 
 - Working in Node's asynchronous environment was challenging for the requirements of this project. We used Promises to halt execution of subsequent functions before the necessary information had been retrieved by pg promises from the PostgreSQL database.
